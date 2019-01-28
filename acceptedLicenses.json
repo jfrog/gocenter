@@ -1,0 +1,262 @@
+{
+  "_comments" : [
+    "name field in license should be SPDX short Id where available, otherwise should match name in go-license-discovery"
+    ],
+  "licenses" : [
+    {
+      "longName" : "The Apache Software License, Version 2.0",
+      "name" : "Apache-2.0",
+      "url" : "http://www.opensource.org/licenses/apache2.0.php"
+    },
+    {
+      "longName" : "GNU General Public License version 3",
+      "name" : "GPL-3.0",
+      "url" : "http://www.opensource.org/licenses/gpl-3.0.html"
+    },
+    {
+      "longName" : "The MIT License",
+      "name" : "MIT",
+      "url" : "http://www.opensource.org/licenses/mit-license.php"
+    },
+    {
+      "longName" : "Berkeley Software Distribution Simplified (BSD Simplified)",
+      "name" : "BSD-2-Clause",
+      "url" : "http://opensource.org/licenses/BSD-2-Clause"
+    },
+    {
+      "longName" : "Berkeley Software Distribution New (BSD New)",
+      "name" : "BSD-3-Clause",
+      "url" : "http://opensource.org/licenses/BSD-3-Clause"
+    },
+    {
+      "longName" : "Eclipse Public License 2.0",
+      "name" : "EPL-2.0",
+      "url" : "https://www.eclipse.org/legal/epl-2.0/"
+    },
+    {
+      "longName" : "The GNU General Public License Version 2",
+      "name" : "GPL-2.0",
+      "url" : "http://www.opensource.org/licenses/gpl-2.0.php"
+    },
+    {
+      "longName" : "GNU Lesser General Public License, Version 3",
+      "name" : "LGPL-3.0",
+      "url" : "http://www.opensource.org/licenses/lgpl-3.0.html"
+    },
+    {
+      "longName" : "Mozilla Public License Version 2.0",
+      "name" : "MPL-2.0",
+      "url" : "http://www.mozilla.org/MPL/2.0/"
+    },
+    {
+      "longName" : "The Academic Free License 3.0",
+      "name" : "AFL-3.0",
+      "url" : "http://www.opensource.org/licenses/afl-3.0.php"
+    },
+    {
+      "longName" : "The Apache Software License, Version 1.0",
+      "name" : "Apache-1.0",
+      "url" : "http://apache.org/licenses/LICENSE-1.0"
+    },
+    {
+      "longName" : "Boost Software License 1.0 (BSL1.0)",
+      "name" : "BSL-1.0",
+      "url" : "http://www.opensource.org/licenses/bsl1.0.html"
+    },
+    {
+      "longName" : "Common Development and Distribution License 1.0",
+      "name" : "CDDL-1.0",
+      "url" : "http://www.opensource.org/licenses/cddl1.php"
+    },
+    {
+      "longName" : "Common Public Attribution License Version 1.0 (CPAL)",
+      "name" : "CPAL-1.0",
+      "url" : "http://www.opensource.org/licenses/cpal_1.0"
+    },
+    {
+      "longName" : "Common Public License",
+      "name" : "CPL-1.0",
+      "url" : "http://www.opensource.org/licenses/cpl1.0.txt"
+    },
+    {
+      "longName" : "GNU Lesser General Public License, Version 2.1",
+      "name" : "LGPL-2.1",
+      "url" : "http://www.opensource.org/licenses/lgpl-2.1.php"
+    },
+    {
+      "longName" : "GNU Lesser General Public License, Version 3",
+      "name" : "LGPL-3.0",
+      "url" : "http://www.opensource.org/licenses/lgpl-3.0.html"
+    },
+    {
+      "longName" : "ISC License (ISCL)",
+      "name" : "ISC",
+      "url" : "http://www.opensource.org/licenses/isc-license.txt"
+    },
+    {
+      "longName" : "Microsoft Public License",
+      "name" : "MS-PL",
+      "url" : "http://www.opensource.org/licenses/ms-pl.html"
+    },
+    {
+      "longName" : "Eclipse Public License 1.0",
+      "name" : "EPL-1.0",
+      "url" : "http://www.opensource.org/licenses/eclipse-1.0.php"
+    },
+    {
+      "longName" : "Public Licence - EUPL v.1.1",
+      "name" : "EUPL-1.1",
+      "url" : "http://ec.europa.eu/idabc/eupl"
+    },
+    {
+      "longName" : "The PHP License 3.0",
+      "name" : "PHP-3.0",
+      "url" : "http://www.opensource.org/licenses/php.php"
+    },
+    {
+      "longName" : "The Sleepycat License",
+      "name" : "Sleepycat",
+      "url" : "http://www.opensource.org/licenses/sleepycat.php"
+    },
+    {
+      "longName" : "The W3C SOFTWARE NOTICE AND LICENSE",
+      "name" : "W3C",
+      "url" : "http://www.opensource.org/licenses/W3C.php"
+    },
+    {
+      "longName" : "The X.Net, Inc. License",
+      "name" : "Xnet",
+      "url" : "http://www.opensource.org/licenses/xnet.php"
+    },
+    {
+      "longName" : "The Zope Public License Ver.2.0",
+      "name" : "ZPL-2.0",
+      "url" : "http://www.opensource.org/licenses/zpl.php"
+    },
+    {
+      "longName" : "Do What the Fuck You Want to Public License",
+      "name" : "WTFPL",
+      "url" : "http://www.wtfpl.net"
+    },
+    {
+      "longName" : "Berkeley Software Distribution Simplified (BSD Simplified)",
+      "name" : "BSD 2-Clause",
+      "url" : "http://opensource.org/licenses/BSD-2-Clause"
+    },
+    {
+      "longName" : "CC0 1.0 Universal",
+      "name" : "CC0-1.0",
+      "url" : "http://creativecommons.org/publicdomain/zero/1.0/"
+    },
+    {
+      "longName" : "Common Development and Distribution License (CDDL) 1.1",
+      "name" : "CDDL-1.1",
+      "url" : "https://glassfish.java.net/public/CDDL+GPL_1_1.html"
+    },
+    {
+      "longName" : "OpenSSL  LICENSE",
+      "name" : "OpenSSL",
+      "url" : "https://www.openssl.org/source/license.html"
+    },
+    {
+      "longName" : "The Apache Software License, Version 1.1",
+      "name" : "Apache-1.1",
+      "url" : "http://apache.org/licenses/LICENSE-1.1"
+    },
+    {
+      "longName" : "The Apple Public Source License 2.0",
+      "name" : "APSL-2.0",
+      "url" : "http://www.opensource.org/licenses/apsl-2.0.php"
+    },
+    {
+      "longName" : "The GNU General Public License Version 2",
+      "name" : "GPL-2.0",
+      "url" : "http://www.opensource.org/licenses/gpl-2.0.php"
+    },
+    {
+      "longName" : "GNU General Public License version 3",
+      "name" : "GPL-3.0",
+      "url" : "http://www.opensource.org/licenses/gpl-3.0.html"
+    },
+    {
+      "longName" : "The Open Software License 3.0",
+      "name" : "OSL-3.0",
+      "url" : "http://www.opensource.org/licenses/osl-3.0.php"
+    },
+    {
+      "longName" : "Berkeley Software Distribution Simplified (BSD New)",
+      "name" : "BSD-3-Clause",
+      "url" : "http://opensource.org/licenses/BSD-3-Clause"
+    },
+    {
+      "longName" : "Academic Free License v2.1",
+      "name" : "AFL-2.1",
+      "url" : "https://spdx.org/licenses/AFL-2.1.html"
+    },
+    {
+      "longName" : "libpng License",
+      "name" : "Libpng",
+      "url" : "https://spdx.org/licenses/Libpng.html"
+    },
+    {
+      "longName" : "GNU Library General Public License v2 only",
+      "name" : "LGPL-2.0",
+      "url" : "https://spdx.org/licenses/LGPL-2.0-only.html"
+    },
+    {
+      "longName" : "University of Illinois/NCSA Open Source License",
+      "name" : "NCSA",
+      "url" : "https://spdx.org/licenses/NCSA.html"
+    },
+    {
+      "longName" : "ImageMagick License",
+      "name" : "ImageMagick",
+      "url" : "https://spdx.org/licenses/ImageMagick.html"
+    },
+    {
+      "longName" : "IBM Public License Version 1.0",
+      "name" : "IPL-1.0",
+      "url" : "http://www.opensource.org/licenses/ibmpl.php"
+    },
+    {
+      "longName" : "The GNU General Public License Version 2 with Classpath Exception",
+      "name" : "GPL-2.0-with-classpath-exception",
+      "url" : "http://openjdk.java.net/legal/gplv2+ce.html"
+    },
+    {
+      "longName" : "The Q Public License Version 1.0",
+      "name" : "QPL-1.0",
+      "url" : "http://www.opensource.org/licenses/qtpl.php"
+    },
+    {
+      "longName" : "The University of Illinois/NCSA Open Source License",
+      "name" : "UoI-NCSA",
+      "url" : "http://www.opensource.org/licenses/UoI-NCSA.php"
+    },
+    {
+      "longName" : "The zlib/libpng License",
+      "name" : "Zlib",
+      "url" : "http://www.opensource.org/licenses/zlib-license.php"
+    },
+    {
+      "longName" : "Berkeley Software Distribution Simplified (BSD Simplified)",
+      "name" : "BSD-2-Clause",
+      "url" : "http://opensource.org/licenses/BSD-2-Clause"
+    },
+    {
+      "longName" : "GNU AFFERO GENERAL PUBLIC LICENSE v3",
+      "name" : "AGPL-3.0",
+      "url" : "http://www.opensource.org/licenses/agpl-v3.html"
+    },
+    {
+      "longName" : "Mozilla Public License 1.1 (MPL 1.1)",
+      "name" : "MPL-1.1",
+      "url" : "http://www.opensource.org/licenses/mozilla1.1.php"
+    },
+    {
+      "longName" : "Unlicense",
+      "name" : "Unlicense",
+      "url" : "http://unlicense.org/"
+    }
+  ]
+}
