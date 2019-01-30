@@ -14,7 +14,7 @@ well stick around and read this page first.
 
 The Go client fails if at least one dependency can’t be found at `GOPROXY`. We recommend using `goc` instead of `go` to build your projects with GoCenter. For example: `goc build`. This is more fully explained in the [Using goc wiki page](https://github.com/jfrog/gocenter/wiki/Using-goc).
 
-### I’m running into “checksum mismatch” errors in my builds while resolving from GoCenter.
+### I’m running into “checksum mismatch” errors in my build while resolving from GoCenter.
 
 This issue can be easily fixed by removing the corresponding entry in your `go.sum` file that is causing the error or removing your `go.sum` file completely, then rerunning your build again to regenerate the checksums correctly. A detailed explanation including why this error occurs is provided in the [FAQ wiki page](https://github.com/jfrog/gocenter/wiki/Frequently-Asked-Questions).
 
