@@ -35,7 +35,7 @@ This issue can be easily fixed by removing the corresponding entry in your `go.s
 * If your issue is not appropriate for a public discussion, please contact us via e-mail at gocenter@jfrog.com.
 * If you have issues integrating Artifactory with JFrog GoCenter, and you have support, please file a support ticket.
 * For issues relating to the JFrog CLI, please file a GitHub issue on the [jfrog-cli-go GitHub repository](https://github.com/jfrog/jfrog-cli-go)
-* For issues relating to `goc` client, please file a GitHub issue on the [goc GitHub repository]((https://github.com/jfrog/goc)
+* For issues relating to `goc` client, please file a GitHub issue on the [goc GitHub repository](https://github.com/jfrog/goc)
 * If you have found a security vulnerability in any part of GoCenter or its infrastructure, please e-mail security@jfrog.com
 
 ## Contributing to GoCenter
