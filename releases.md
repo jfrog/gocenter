@@ -2,7 +2,7 @@
 
 <!-- MarkdownTOC autolink="true" bracket="round" -->
 
-- [2019 March 14: Updated logic for generating mod files](#2019-March-14)
+- [2019 March 14: Updated logic for generating mod files](#2019-march-14-updated-logic-for-generating-mod-files)
 - [2019 January 28: GA](#2019-January-28-ga)
 
 <!-- /MarkdownTOC -->
