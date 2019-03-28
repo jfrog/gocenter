@@ -2,10 +2,17 @@
 
 <!-- MarkdownTOC autolink="true" bracket="round" -->
 
+- [2019 March 27: Enhanced automatic inclusion of Go modules](#2019-march-27-enhanced-automatic-inclusion-of-go-modules)
 - [2019 March 14: Updated logic for generating mod files](#2019-march-14-updated-logic-for-generating-mod-files)
 - [2019 January 28: GA](#2019-January-28-ga)
 
 <!-- /MarkdownTOC -->
+
+## 2019 March 27: Enhanced automatic inclusion of Go modules 
+In this release, GoCenter has enhanced the automatic inclusion of Go modules
+* GoCenter will now automatically attempt to include missing Go modules that were requested at least once
+* This means that if a user tries to retrieve a dependency from GoCenter, but receives a 404 error (“Not Found”) because the module does not yet exist in GoCenter, a background process in GoCenter will eventually try to include that module through the [Inclusion Request process](https://github.com/jfrog/gocenter/wiki/How-GoCenter-Works#inclusion-process). 
+* This feature will enhance the user experience of GoCenter as a Go proxy by reducing the occurrence of 404 errors in your builds.
 
 ## 2019 March 14: Updated logic for generating mod files 
 In this release, GoCenter has changed the logic of mod files generation. 
