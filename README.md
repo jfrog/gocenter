@@ -6,7 +6,7 @@ If you are reading this, then hopefully you have an interest in immutable re-usa
 you haven't already, you can check out the actual web page at [gocenter.io](https://gocenter.io), but you may as
 well stick around and read this page first.
 
-## The documentation on what is GoCenter, how GoCenter works, how to set up your tools to work with GoCenter and the Fequently Asked Questions (and answers!) can be found in [the Wiki of the project](https://github.com/jfrog/gocenter/wiki).
+## The documentation on what is GoCenter, how GoCenter works, how to set up your tools to work with GoCenter and the Frequently Asked Questions (and answers!) can be found in [the Wiki of the project](https://github.com/jfrog/gocenter/wiki).
 
 ## Troubleshooting
 
