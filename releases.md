@@ -2,12 +2,16 @@
 
 <!-- MarkdownTOC autolink="true" bracket="round" -->
 
+- [2019 June 12: Display module information in search results](#2019-june-12-module-information-in-search-results)
 - [2019 June 6: Improved search functionality](#2019-june-6-improved-search-functionality)
 - [2019 March 27: Enhanced automatic inclusion of Go modules](#2019-march-27-enhanced-automatic-inclusion-of-go-modules)
 - [2019 March 14: Updated logic for generating mod files](#2019-march-14-updated-logic-for-generating-mod-files)
 - [2019 January 28: GA](#2019-January-28-ga)
 
 <!-- /MarkdownTOC -->
+
+## 2019 June 12: Module information in search results
+In this release, module metadata will be displayed as part of search results.
 
 ## 2019 June 6: Improved search functionality
 In this release, GoCenter has enriched the search functionality which includes most relevant Go modules in search results.
