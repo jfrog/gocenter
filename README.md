@@ -10,10 +10,6 @@ well stick around and read this page first.
 
 ## Troubleshooting
 
-### I pointed `GOPROXY` to GoCenter (https://gocenter.io), but now my build is failing.
-
-The Go client fails if at least one dependency can’t be found at `GOPROXY`. We recommend using `goc` instead of `go` to build your projects with GoCenter. For example: `goc build`. This is more fully explained in the [Using goc wiki page](https://github.com/jfrog/gocenter/wiki/Using-goc).
-
 ### I’m running into “checksum mismatch” errors in my build while resolving from GoCenter.
 
 Be very careful with checksum mismatches. Except of one case, detailed in our [FAQ wiki page](https://github.com/jfrog/gocenter/wiki/Frequently-Asked-Questions), it usually means you have downloaded a damaged dependency module.
@@ -35,7 +31,6 @@ Be very careful with checksum mismatches. Except of one case, detailed in our [F
 * If your issue is not appropriate for a public discussion, please contact us via e-mail at gocenter@jfrog.com.
 * If you have issues integrating Artifactory with JFrog GoCenter, and you have support, please file a support ticket.
 * For issues relating to the JFrog CLI, please file a GitHub issue on the [jfrog-cli-go GitHub repository](https://github.com/jfrog/jfrog-cli-go)
-* For issues relating to `goc` client, please file a GitHub issue on the [goc GitHub repository](https://github.com/jfrog/goc)
 * If you have found a security vulnerability in any part of GoCenter or its infrastructure, please e-mail security@jfrog.com
 
 ## Contributing to GoCenter
