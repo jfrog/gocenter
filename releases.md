@@ -15,12 +15,12 @@
 In this release, GoCenter has:
 * Introduced a module page. As a one-stop central Go modules repository, GoCenter now provides more module information to developers to decide whether to use this module as a dependency in a project. Each module in GoCenter now has five tabs to show information:
   * README: Developers care about documentation, so the first page you land on is the README documenting the module
-  * Mod file: This tab shows the contents of the go.mod file or, if the module has not adopted Go modules yet, GoCenter will  recommend a mod file based on ‘go mod tidy’ for the latest version of the module available in GoCenter.
+  * Mod file: This tab shows the contents of the `go.mod` file or, if the module has not adopted Go modules yet, GoCenter will  recommend a mod file based on `go mod tidy` for the latest version of the module available in GoCenter.
   * Dependencies: This tab shows all of the module’s dependencies in a dependency tree format.
   * Used by: This tab shows which other projects use the selected module
   * Versions: This tab shows all the versions that GoCenter knows about, and has a copy of, ready to serve to developers.
 * Changed the way Go modules are resolved. If the module isn’t in GoCenter, it will get the module from the source for you. This feature limits the number of HTTP/404 responses and means developers no longer need any additional tools to get all their public modules from GoCenter.
-* Updated the ‘Set Me Up’ page to include instructions for Windows PowerShell and the traditional Windows terminal.
+* Updated the `Set Me Up` page to include instructions for Windows PowerShell and the traditional Windows terminal.
 
 
 ## 2019 June 12: Module information in search results
