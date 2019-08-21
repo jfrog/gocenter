@@ -1,0 +1,48 @@
+## Go Modules Scoring Algorithm
+
+## module score criteria
+
+#Number of modules dependent on the module
+usedBy:
+    type: integer
+    weight: 1/5
+
+#Number of stars for the module in Github
+stars:
+    type: integer
+    weight: 1/10
+
+#Number of forks for the module in Github
+forks:
+    type: integer
+    weight: 1/100
+
+#Number of downloads for the module in GoCenter
+downloads:
+    type: integer
+    weight: 1/100
+
+#Is the project deleted from Github
+projectDeleted:
+    type: boolean
+    weight: -10000
+
+#Is there a README available for Github project
+readMeIsAvailable:
+    type: boolean
+    weight: 5
+
+#Is there active development on Github project
+activeDevelopment:
+    type: boolean
+    weight: 5
+
+#Is there a Licence available for Github project
+hasLicense:
+    type: boolean
+    weight: 5
+
+#Is there active contributors for Github project
+activeMaintainers:
+    type: boolean
+    weight: 5
