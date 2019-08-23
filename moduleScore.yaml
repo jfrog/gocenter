@@ -22,7 +22,7 @@ downloads:
     type: integer
     weight: 0.01
 
-# Is the project source code not publicly available anymore on GitHub
+# Is the project source code not publicly available anymore in GitHub
 projectDeleted:
     type: boolean
     weight: -10000
@@ -32,7 +32,7 @@ readMeIsAvailable:
     type: boolean
     weight: 5
 
-# Is there any commits in the last 2 months on GitHub
+# Is there any commits in the last 2 months in GitHub
 activeDevelopment:
     type: boolean
     weight: 5
@@ -42,7 +42,7 @@ hasLicense:
     type: boolean
     weight: 5
 
-# Are there additional contributors besides repository's creator on GitHub
+# Are there additional contributors besides repository's creator in GitHub
 activeMaintainers:
     type: boolean
     weight: 5
