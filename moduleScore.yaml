@@ -2,47 +2,47 @@
 
 ## module score criteria
 
-#Number of modules dependent on the module
+# Number of modules dependent on the module
 usedBy:
     type: integer
-    weight: 1/5
+    weight: 0.2
 
-#Number of stars for the module in Github
+# Number of stars for the module in Github
 stars:
     type: integer
-    weight: 1/10
+    weight: 0.1
 
-#Number of forks for the module in Github
+# Number of forks for the module in Github
 forks:
     type: integer
-    weight: 1/100
+    weight: 0.01
 
-#Number of downloads for the module in GoCenter
+# Number of downloads for the module in GoCenter
 downloads:
     type: integer
-    weight: 1/100
+    weight: 0.01
 
-#Is the project deleted from Github
+# Is the project source code not publicly available anymore in GitHub
 projectDeleted:
     type: boolean
     weight: -10000
 
-#Is there a README available for Github project
+# Is there a README file available on the latest version of the module
 readMeIsAvailable:
     type: boolean
     weight: 5
 
-#Is there active development on Github project
+# Is there any commits in the last 2 months in GitHub
 activeDevelopment:
     type: boolean
     weight: 5
 
-#Is there a Licence available for Github project
+# Is there a Licence file available on the latest version of the module
 hasLicense:
     type: boolean
     weight: 5
 
-#Is there active contributors for Github project
+# Are there additional contributors besides repository's creator in GitHub
 activeMaintainers:
     type: boolean
     weight: 5
