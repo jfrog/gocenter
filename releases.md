@@ -2,6 +2,7 @@
 
 <!-- MarkdownTOC autolink="true" bracket="round" -->
 
+- [2019 September 10: Checksum database support in GoCenter](#2019-september-10-checksum-database-support-in-gocenter)
 - [2019 July 23: Released GoCenter module page](#2019-july-23-released-gocenter-module-page)
 - [2019 June 12: Display module information in search results](#2019-june-12-module-information-in-search-results)
 - [2019 June 6: Improved search functionality](#2019-june-6-improved-search-functionality)
@@ -10,6 +11,9 @@
 - [2019 January 28: GA](#2019-January-28-ga)
 
 <!-- /MarkdownTOC -->
+
+## 2019 September 10: Checksum database support in GoCenter
+In this release, we started supporting the checksum database by proxying sum.golang.org. So if you upgraded Go to 1.13 and have the proxy already set to https://gocenter.io, then the sumdb requests from the Go client will also be served by gocenter.io.
 
 ## 2019 July 23: Released GoCenter module page
 In this release, GoCenter has:
