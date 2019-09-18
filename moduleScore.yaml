@@ -25,7 +25,7 @@ downloads:
 # Is the project source code not publicly available anymore in GitHub
 projectDeleted:
     type: boolean
-    weight: -25
+    weight: -10000
 
 # Is there a README file available on the latest version of the module
 readMeIsAvailable:
