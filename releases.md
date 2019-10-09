@@ -14,7 +14,7 @@
 <!-- /MarkdownTOC -->
 
 ## 2019 October 7: New metrics panel and new Go Center look
-A new version of gocenter was released today. Apart from the look and feel changes, there is a new metrics panel that will  help module authors and users access better metadata to make decisions around which modules to use. check it out - https://search.gocenter.io/stats
+A new version of GoCenter was released today. Apart from the look and feel changes, there is a new metrics panel that will  help module authors and users access additional metadata to make better decisions around which modules to use. Check it out - https://search.gocenter.io/stats
 
 ## 2019 September 10: Checksum database support in GoCenter
 In this release, we started supporting the checksum database by proxying sum.golang.org. So if you upgraded Go to 1.13 and have the proxy already set to https://gocenter.io, then the sumdb requests from the Go client will also be served by gocenter.io.
