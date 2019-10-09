@@ -5,12 +5,12 @@
 # Number of modules dependent on the module
 usedBy:
     type: integer
-    weight: 0.2
+    weight: 0.25
 
 # Number of stars for the module in Github
 stars:
     type: integer
-    weight: 0.1
+    weight: 0.01
 
 # Number of forks for the module in Github
 forks:
@@ -20,7 +20,7 @@ forks:
 # Number of downloads for the module in GoCenter
 downloads:
     type: integer
-    weight: 0.01
+    weight: 0.05
 
 # Is the project source code not publicly available anymore in GitHub
 projectDeleted:
