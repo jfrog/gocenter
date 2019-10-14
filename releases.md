@@ -16,8 +16,17 @@
 ## 2019 October 7: New metrics panel and new Go Center look
 A new version of GoCenter was released today. Apart from the look and feel changes, there is a new metrics panel that will  help module authors and users access additional metadata to make better decisions around which modules to use. Check it out - https://search.gocenter.io/stats
 
+Other updates included a new improved homepage image and:
+* Top bar has been changed from green to black to match the new unified experience look and feel 
+* The navigation menu has been expanded to include versions and metrics visible in the UI from the start
+* White information bar includes new metrics data including license information
+* A blog link has been added to the top bar.
+
 ## 2019 September 10: Checksum database support in GoCenter
-In this release, we started supporting the checksum database by proxying sum.golang.org. So if you upgraded Go to 1.13 and have the proxy already set to https://gocenter.io, then the sumdb requests from the Go client will also be served by gocenter.io.
+In this release, we started supporting the checksum database by proxying sum.golang.org. So if you upgraded Go to 1.13 and have the proxy already set to https://gocenter.io, then the sumdb requests from the Go client will also be served by gocenter.io. As part of this release, we also:
+ *	modified package.json
+ *	Metrics tab update
+ *	Added get module names API
 
 ## 2019 July 23: Released GoCenter module page
 In this release, GoCenter has:
@@ -32,10 +41,18 @@ In this release, GoCenter has:
 
 
 ## 2019 June 12: Module information in search results
-In this release, module metadata will be displayed as part of search results.
+In this release, module metadata will be displayed as part of search results. Other fixes that came out today include:
+*	Deep processing when shallow processing times out.	
+*	Added module update retries		
+*	Log expired locks		
+*	Fixed virtual repo composition
 
 ## 2019 June 6: Improved search functionality
-In this release, GoCenter has enriched the search functionality which includes most relevant Go modules in search results.
+In this release, GoCenter has enriched the search functionality which includes most relevant Go modules in search results. Other updates include:
+*	Ignore build constraint validation failure
+*	Fixed elastic json escape bug
+*	Added support to Artifactory 6.10.x
+*	Added support to modules with .go in their names
 
 ## 2019 March 27: Enhanced automatic inclusion of Go modules 
 In this release, GoCenter has enhanced the automatic inclusion of Go modules
@@ -50,10 +67,11 @@ In this release, GoCenter has changed the logic of mod files generation.
 * For Go projects that already have go.mod files, GoCenter will continue to keep these .mod files unchanged when processing them to be included in GoCenter.
 
 ## 2019 January 28: GA
-* gocenter.io goes live!
+* GoCenter.io goes live!
 * Basic ability to search for modules
 * Basic ability to request new modules be added to GoCenter
 * Basic ability to determine the status of a module/version
-
-
-
+*	New CLI version
+*	Updated the UI
+*	Created helper to fix Artifactory mod files
+*	Updated main view mobile layout
