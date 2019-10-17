@@ -14,6 +14,10 @@ well stick around and read this page first.
 
 Be very careful with checksum mismatches. Except of one case, detailed in our [FAQ wiki page](https://github.com/jfrog/gocenter/wiki/Frequently-Asked-Questions), it usually means you have downloaded a damaged dependency module.
 
+## Release Notes
+
+GoCenter is constantly improving your experience with Go Modules based on community feedback. We make lots of small improvements regularly and keep a running list of major ones in our releases.md file. Stay up to date with us by checking out our latest: [Release Notes](https://github.com/jfrog/gocenter/blob/master/releases.md).
+
 ## Contact us
 
 * Twitter: ping us `@jfrog`.
