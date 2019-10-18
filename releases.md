@@ -28,12 +28,12 @@ This week we made some improvements to SEO and fixed a few other items:
 * We adjust the weights for criteria for Go Module scoring
 * Upgraded Kubernetes to patch security issue
 * Metadata service to trigger lookup calls for new module versions against gosumdb.
-* Fixed runnable Go version
+* Updated Go version to patch security issue
 
 ## 2019 October 9: More UI improvements
 Lots of small changes to the Go Center UI. We've added minor improvements to all the content that we released earlier this month. Fixes include:
 * Fixed source location discovery and added API to fix data
-* Fixed runnable go version
+* Updated go version
 * Added SEO keywords to header
 * Stats calculated text alignment
 * Updated autosuggest styles
