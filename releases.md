@@ -31,13 +31,13 @@ This week we made some improvements to SEO and fixed a few other items:
 * Updated Go version to patch security issue
 
 ## 2019 October 9: More UI improvements
-Lots of small changes to the Go Center UI. We've added minor improvements to all the content that we released earlier this month. Fixes include:
+On this release, we made lots of small changes to the Go Center UI. We've added minor improvements to all the content that we released earlier this month including a few elements of how the home page looks. Other improvements include:
 * Fixed source location discovery and added API to fix data
-* Updated go version
+* Updated Go version
 * Added SEO keywords to header
 * Stats calculated text alignment
 * Updated autosuggest styles
-* Updated homepage Image
+* Updated homepage image from microscope to frog and gopher
 * Discovery ignoring tags with + suffix
 
 ## 2019 October 7: New metrics panel and new Go Center look
@@ -60,12 +60,6 @@ In this release, we started supporting the checksum database by proxying sum.gol
  *	modified package.json
  *	Metrics tab update
  *	Added get module names API
- 
- ## 2019 September 3: Beginning to build a Go Modules Score
- On this release, we started working on the back-end needed for Go Module scores. Updates include:
- * We also made updates to the metrics panel
- * Create job to compute modules score factors and scores
- * Fixed Jenkins files and graceful shutdown
  
 ## 2019 August 27: Discovery process updates
 In this release, we fixed a few issues regarding the discovery request process. Both discovery and getModules API will validate if module name is declared in the go.mod file of a tag – if it is compatible with the project being checked. If they are not compatible, the tag will be ignored. Other improvements on this release include:
@@ -99,13 +93,11 @@ In this release, GoCenter has enriched the search functionality which includes m
 *	Added support to modules with .go in their names
  
 ## 2019 May 24: Go version updates
-This month we’re continuing to make updates to Go Center that incorporate changes from Go 1.12. These include:
+This month we’re continuing to make updates to Go Center that incorporate changes from Go 1.12. Some issues addressed in this release include:
 *	store/fetch go.mod-public/suggested in bucket and server via rest when invoked
-*	gomodinittidy flow	store/fetch go.mod-public/suggested in bucket and server via rest when invoked
-*	gomodinittidy flow
 *	Fixed module indexing issues		
 *	Init cache provider for metadata service
-*	module metrics in module status, readme from art
+*	module metrics in module status
 
 ## 2019 April 26: Improve Go Module metadata and search
 The focus here was on adding module metadata services and improving the search experience. Updates include:
