@@ -94,8 +94,9 @@ In this release, GoCenter has enriched the search functionality which includes m
  
 ## 2019 May 24: Go version updates
 This month we’re continuing to make updates to Go Center that incorporate changes from Go 1.12. Some issues addressed in this release include:
-*	store/fetch go.mod-public/suggested in bucket and server via rest when invoked
+*	Optimize searches for scalability (such as using Elasticdb)
 *	Fixed module indexing issues		
+* tidying up how we show go.mod file information on the UI
 *	Init cache provider for metadata service
 *	module metrics in module status
 
