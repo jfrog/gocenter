@@ -2,7 +2,8 @@
 
 <!-- MarkdownTOC autolink="true" bracket="round" -->
 
-- [2019 October 7: New Metrics Panel and New Go Center Look](#2019-october-7-new-metrics-panel-and-new-Go-Center-look)
+- [2019 October 25: Better discoverability](#2019-october-25-better-discoverability)
+- [2019 October 7: New metrics panel and new Go Center look](#2019-october-7-new-metrics-panel-and-new-Go-Center-look)
 - [2019 September 10: Checksum database support in GoCenter](#2019-september-10-checksum-database-support-in-gocenter)
 - [2019 July 23: Released GoCenter module page](#2019-july-23-released-gocenter-module-page)
 - [2019 June 12: Display module information in search results](#2019-june-12-module-information-in-search-results)
@@ -12,6 +13,13 @@
 - [2019 January 28: GA](#2019-January-28-ga)
 
 <!-- /MarkdownTOC -->
+
+## 2019 October 25: Better discoverability
+On this release, we added full-text search capabilities so that users can search for modules based on their descriptions in the main search bar. A few other updates include:
+
+* We enhanced the way we detect licenses - now we will list more than one license if available for modules
+* Update: If a request is made to fetch a forked module for which the go.mod file refers to parent module, GoCenter should return 404 for the bad module but still send a request to processor for the go.mod file
+* Bug fix: fix scoring bug check condition - modules taken down due to http 451 errors should be reflected in the condition to detect during score computation
 
 ## 2019 October 7: New metrics panel and new Go Center look
 A new version of GoCenter was released today. Apart from the look and feel changes, there is a new metrics panel that will  help module authors and users access additional metadata to make better decisions around which modules to use. Check it out - https://search.gocenter.io/stats
