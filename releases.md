@@ -2,6 +2,7 @@
 
 <!-- MarkdownTOC autolink="true" bracket="round" -->
 
+- [2019 October 25: Better discoverability](#2019-october-25-better-discoverability)
 - [2019 October 17: Bug fixes and regular maintenance for Go](#2019-october-17-bug-fixes-and-regular-maintenance-for-go)
 - [2019 October 9: More UI improvements](#2019-october-9-more-ui-improvements)
 - [2019 October 7: New Metrics Panel and New Go Center Look](#2019-october-7-new-metrics-panel-and-new-Go-Center-look)
@@ -22,6 +23,13 @@
 - [2019 January 28: GA](#2019-January-28-ga)
 
 <!-- /MarkdownTOC -->
+
+## 2019 October 25: Better discoverability
+On this release, we added full-text search capabilities so that users can search for modules based on their descriptions in the main search bar. A few other updates include:
+
+* We enhanced the way we detect licenses - now we will list more than one license if available for modules
+* Update: If a request is made to fetch a forked module for which the go.mod file refers to parent module, GoCenter should return 404 for the bad module but still send a request to processor for the go.mod file
+* Bug fix: scoring check condition - modules taken down due to http 451 errors should be reflected in the condition to detect during score computation
 
 ## 2019 October 17: Bug fixes and regular maintenance for Go
 This week we made some improvements to SEO and fixed a few other items:
