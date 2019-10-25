@@ -19,7 +19,7 @@ On this release, we added full-text search capabilities so that users can search
 
 * We enhanced the way we detect licenses - now we will list more than one license if available for modules
 * Update: If a request is made to fetch a forked module for which the go.mod file refers to parent module, GoCenter should return 404 for the bad module but still send a request to processor for the go.mod file
-* Bug fix: fix scoring bug check condition - modules taken down due to http 451 errors should be reflected in the condition to detect during score computation
+* Bug fix: Scoring check condition - modules taken down due to http 451 errors should be reflected in the condition to detect during score computation
 
 ## 2019 October 7: New metrics panel and new Go Center look
 A new version of GoCenter was released today. Apart from the look and feel changes, there is a new metrics panel that will  help module authors and users access additional metadata to make better decisions around which modules to use. Check it out - https://search.gocenter.io/stats
