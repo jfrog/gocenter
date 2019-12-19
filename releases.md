@@ -9,6 +9,7 @@
 - [2019 October 7: New Metrics Panel and New Go Center Look](#2019-october-7-new-metrics-panel-and-new-Go-Center-look)
 - [2019 September 19: SEO improvements](#2019-september-19-seo-improvements)
 - [2019 September 10: Checksum database support in GoCenter](#2019-september-10-checksum-database-support-in-gocenter)
+- [2019 September 3: Beginning to build a Go Modules Score](#2019-september-3-beginning-to-build-a-go-modules-score)
 - [2019 August 27: Discovery process updates](#2019-august-27-discovery-process-updates)
 - [2019 July 23: Released GoCenter module page](#2019-july-23-released-gocenter-module-page)
 - [2019 June 12: Display module information in search results](#2019-june-12-display-module-information-in-search-results)
@@ -79,6 +80,9 @@ In this release, we started supporting the checksum database by proxying sum.gol
  *	Metrics tab update
  *	Added get module names API
  
+## 2019 September 3: Beginning to build a Go Modules Score
+Today we released our first version of the GoScore which helps provides us data to measure the quality and quantity of Go modules. Learn more here: https://github.com/jfrog/gocenter/wiki/Module-Scoring
+
 ## 2019 August 27: Discovery process updates
 In this release, we fixed a few issues regarding the discovery request process. Both discovery and getModules API will validate if module name is declared in the go.mod file of a tag – if it is compatible with the project being checked. If they are not compatible, the tag will be ignored. Other improvements on this release include:
  *	do a lookup on Artifactory sumdb virtual repo during metadata update.
