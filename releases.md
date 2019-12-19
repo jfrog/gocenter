@@ -1,7 +1,8 @@
 # Release Notes
 
 <!-- MarkdownTOC autolink="true" bracket="round" -->
-
+- [2019 December 18: Improved handling](#2019-december-18-improved-handling)
+- [2019 December 17: User interface improvements](#2019-december-17-user-interface-improvements)
 - [2019 October 25: Better discoverability](#2019-october-25-better-discoverability)
 - [2019 October 17: Bug fixes and regular maintenance for Go](#2019-october-17-bug-fixes-and-regular-maintenance-for-go)
 - [2019 October 9: More UI improvements](#2019-october-9-more-ui-improvements)
@@ -23,6 +24,16 @@
 - [2019 January 28: GA](#2019-January-28-ga)
 
 <!-- /MarkdownTOC -->
+
+## 2019 December 18: Improved handling
+Go Center:
+* Improved how it handles cases for module versions that are +incompatible, but are still in v1 or v0.
+
+## 2019 December 17: User interface improvements
+We fixed a few minor issues in the UI and added an exciting new feature to highlight great modules:
+* Improved error-handling transparency on versions page that allows users to download full txt log when version uploads error
+* Keep an eye out for Go Badges! A new feature that will begin highlighting module authors that are creating great projects!
+* Gosumdb entries for modules with uppercase values were not being cached. This has been fixed.
 
 ## 2019 October 25: Better discoverability
 On this release, we added full-text search capabilities so that users can search for modules based on their descriptions in the main search bar. A few other updates include:
@@ -69,6 +80,9 @@ In this release, we started supporting the checksum database by proxying sum.gol
  *	Metrics tab update
  *	Added get module names API
  
+## 2019 September 3: Beginning to build a Go Modules Score
+Today we released our first version of the GoScore which helps provides us data to measure the quality and quantity of Go modules. Learn more here: https://github.com/jfrog/gocenter/wiki/Module-Scoring
+
 ## 2019 August 27: Discovery process updates
 In this release, we fixed a few issues regarding the discovery request process. Both discovery and getModules API will validate if module name is declared in the go.mod file of a tag – if it is compatible with the project being checked. If they are not compatible, the tag will be ignored. Other improvements on this release include:
  *	do a lookup on Artifactory sumdb virtual repo during metadata update.
