@@ -1,12 +1,13 @@
 # Release Notes
 
 <!-- MarkdownTOC autolink="true" bracket="round" -->
+- [2020 January 7: Xray scans gocenter](#2020-january-7-xray-scans-gocenter)
 - [2019 December 18: Improved handling](#2019-december-18-improved-handling)
 - [2019 December 17: User interface improvements](#2019-december-17-user-interface-improvements)
 - [2019 October 25: Better discoverability](#2019-october-25-better-discoverability)
 - [2019 October 17: Bug fixes and regular maintenance for Go](#2019-october-17-bug-fixes-and-regular-maintenance-for-go)
 - [2019 October 9: More UI improvements](#2019-october-9-more-ui-improvements)
-- [2019 October 7: New Metrics Panel and New Go Center Look](#2019-october-7-new-metrics-panel-and-new-Go-Center-look)
+- [2019 October 7: New Metrics Panel and New Go Center Look](#2019-october-7-new-metrics-panel-and-new-GoCenter-look)
 - [2019 September 19: SEO improvements](#2019-september-19-seo-improvements)
 - [2019 September 10: Checksum database support in GoCenter](#2019-september-10-checksum-database-support-in-gocenter)
 - [2019 September 3: Beginning to build a Go Modules Score](#2019-september-3-beginning-to-build-a-go-modules-score)
@@ -24,6 +25,13 @@
 - [2019 January 28: GA](#2019-January-28-GA)
 
 <!-- /MarkdownTOC -->
+
+## 2020 January 7: Xray scans GoCenter
+GoCenter now includes vulnerability scanning in the UI!
+
+Now, every module and version in GoCenter is automatically scanned for known vulnerabilities recognized in public vulnerability databases such as NVD. Those results are stored in GoCenter and exposed on the Security page of the UI, which will list all vulnerabilities that exist in the module version.
+
+Learn more: https://jfrog.com/blog/gocenter-reveals-go-module-vulnerabilities-with-xray/
 
 ## 2019 December 18: Improved handling
 Go Center:
@@ -59,7 +67,7 @@ On this release, we made lots of small changes to the Go Center UI. We've added 
 * Updated homepage image from microscope to frog and gopher
 * Discovery ignoring tags with + suffix
 
-## 2019 October 7: New metrics panel and new Go Center look
+## 2019 October 7: New metrics panel and new GoCenter look
 A new version of GoCenter was released today. Apart from the look and feel changes, there is a new metrics panel that will  help module authors and users access additional metadata to make better decisions around which modules to use. Check it out - https://search.gocenter.io/stats
 
 Other updates included a new improved homepage image and:
