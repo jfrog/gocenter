@@ -27,9 +27,9 @@
 <!-- /MarkdownTOC -->
 
 ## 2020 January 7: Xray scans GoCenter
-We’ve brought the power of JFrog Xray’s vulnerability scanning to Go modules!
+GoCenter now includes vulnerability scanning in the UI!
 
-Xray supports scanning of a large variety of language and package types. We’ve now brought the Xray difference to GoCenter as well, so that every module and version in GoCenter is automatically scanned for known vulnerabilities recognized in public vulnerability databases such as NVD. Those results are stored in GoCenter and exposed on the Security page of the UI, which will list all vulnerabilities that exist in the module version.
+Now, every module and version in GoCenter is automatically scanned for known vulnerabilities recognized in public vulnerability databases such as NVD. Those results are stored in GoCenter and exposed on the Security page of the UI, which will list all vulnerabilities that exist in the module version.
 
 Learn more: https://jfrog.com/blog/gocenter-reveals-go-module-vulnerabilities-with-xray/
 
