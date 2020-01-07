@@ -1,6 +1,7 @@
 # Release Notes
 
 <!-- MarkdownTOC autolink="true" bracket="round" -->
+- [2020 January 7: Xray scans gocenter](#2020-january-7-xray-scans-gocenter)
 - [2019 December 18: Improved handling](#2019-december-18-improved-handling)
 - [2019 December 17: User interface improvements](#2019-december-17-user-interface-improvements)
 - [2019 October 25: Better discoverability](#2019-october-25-better-discoverability)
@@ -24,6 +25,13 @@
 - [2019 January 28: GA](#2019-January-28-GA)
 
 <!-- /MarkdownTOC -->
+
+## 2020 January 7: Xray scans GoCenter
+We’ve brought the power of JFrog Xray’s vulnerability scanning to Go modules!
+
+Xray supports scanning of a large variety of language and package types. We’ve now brought the Xray difference to GoCenter as well, so that every module and version in GoCenter is automatically scanned for known vulnerabilities recognized in public vulnerability databases such as NVD. Those results are stored in GoCenter and exposed on the Security page of the UI, which will list all vulnerabilities that exist in the module version.
+
+Learn more: https://jfrog.com/blog/gocenter-reveals-go-module-vulnerabilities-with-xray/
 
 ## 2019 December 18: Improved handling
 Go Center:
