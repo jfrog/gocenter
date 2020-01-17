@@ -1,6 +1,7 @@
 # Release Notes
 
 <!-- MarkdownTOC autolink="true" bracket="round" -->
+- [2020 January 16: Pseudo-versions fix](#2020-january-16-pseudo-versions-fix)
 - [2020 January 7: Xray scans gocenter](#2020-january-7-xray-scans-gocenter)
 - [2019 December 18: Improved handling](#2019-december-18-improved-handling)
 - [2019 December 17: User interface improvements](#2019-december-17-user-interface-improvements)
@@ -25,6 +26,15 @@
 - [2019 January 28: GA](#2019-January-28-GA)
 
 <!-- /MarkdownTOC -->
+
+## 2020 January 16: Pseudo-versions fix
+GoCenter supports multiple module versions from 1.13 to all prior versions such as 1.12. Starting from Go 1.13, the Go client verifies the pseudo-version components against the version control metadata.
+
+Go versions before 1.13 do not enforce these rules about pseudo-version components. This means that, even though users were not supposed to generate pseudo-versions manually, they could have the same commit hash being used in multiple pseudo-versions without any issues. 
+
+* We have just addressed and fixed this in GoCenter!
+
+Read More: https://dev.to/elioengcomp_41/gocenter-1-12-and-1-13-incorrect-pseudo-versions-fix-o4g
 
 ## 2020 January 7: Xray scans GoCenter
 GoCenter now includes vulnerability scanning in the UI!
