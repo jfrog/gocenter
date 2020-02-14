@@ -1,6 +1,7 @@
 # Release Notes
 
 <!-- MarkdownTOC autolink="true" bracket="round" -->
+- [2020 February 14: Minor fixes](#2020-february-14-minor-fixes)
 - [2020 January 16: Pseudo-versions fix](#2020-january-16-pseudo-versions-fix)
 - [2020 January 7: Xray scans gocenter](#2020-january-7-xray-scans-gocenter)
 - [2019 December 18: Improved handling](#2019-december-18-improved-handling)
@@ -26,6 +27,13 @@
 - [2019 January 28: GA](#2019-January-28-GA)
 
 <!-- /MarkdownTOC -->
+
+## 2020 February 14: Minor fixes
+The team noticed few minor issues with name changes in GitHub. We've updated our logic. 
+
+* Projects can be renamed on GitHub, and GoCenter should be able to detect these changes to provide the right information. We created logic to detect source location name changes.
+* For a few rare scenarios, GoCenter was showing errors from the wrong modules. Now fixed.
+* GoCenter was not able to process the go-get meta tag for multi modules repos like cloud.google.com/go. We’ve fixed this.
 
 ## 2020 January 16: Pseudo-versions fix
 GoCenter supports multiple module versions from 1.13 to all prior versions such as 1.12. Starting from Go 1.13, the Go client verifies the pseudo-version components against the version control metadata.
