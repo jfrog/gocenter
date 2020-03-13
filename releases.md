@@ -1,6 +1,7 @@
 # Release Notes
 
 <!-- MarkdownTOC autolink="true" bracket="round" -->
+- [2020 March 13: UI performance](#2020-march-13-ui-performance)
 - [2020 February 14: Minor fixes](#2020-february-14-minor-fixes)
 - [2020 January 16: Pseudo-versions fix](#2020-january-16-pseudo-versions-fix)
 - [2020 January 7: Xray scans gocenter](#2020-january-7-xray-scans-gocenter)
@@ -27,6 +28,13 @@
 - [2019 January 28: GA](#2019-January-28-GA)
 
 <!-- /MarkdownTOC -->
+
+## 2020 March 13: UI performance
+We've updated a few of the front-end and back-end elements of the UI.
+
+* Performance improvements include deep-linking into individual tabs such as security and metrics
+* URL restructuring
+* Metadata updates
 
 ## 2020 February 14: Minor fixes
 The team noticed few minor issues with name changes in GitHub. We've updated our logic. 
