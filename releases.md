@@ -1,6 +1,7 @@
 # Release Notes
 
 <!-- MarkdownTOC autolink="true" bracket="round" -->
+- [2020 April 3: API provisioning and bug fixes](#2020-april-3-api-provisioning-and-bug-fixes)
 - [2020 March 13: UI performance](#2020-march-13-ui-performance)
 - [2020 February 14: Minor fixes](#2020-february-14-minor-fixes)
 - [2020 January 16: Pseudo-versions fix](#2020-january-16-pseudo-versions-fix)
@@ -28,6 +29,13 @@
 - [2019 January 28: GA](#2019-January-28-GA)
 
 <!-- /MarkdownTOC -->
+## 2020 April 3: API provisioning and bug fixes
+Over the last two weeks, we've been provisioning an API to be used in an upcoming IDE release for GoCenter as well as making minor updates to the UI and social + bug fixes.
+
+* IDE UI API versioning
+* Added error string to API struct
+* Autofocus active tab fix
+* Updated Twitter handle: @gocenterio
 
 ## 2020 March 13: UI performance
 We've updated a few of the front-end and back-end elements of the UI.
