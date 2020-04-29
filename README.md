@@ -1,5 +1,5 @@
 # JFrog GoCenter
-![JFrog GoCenter Logo](./resources/logo.png)
+![JFrog GoCenter Logo](https://raw.githubusercontent.com/jfrog/gocenter/master/resources/logo.png)
 
 
 If you are reading this, then hopefully you have an interest in immutable re-usable Go modules, so welcome to JFrog GoCenter.  If
