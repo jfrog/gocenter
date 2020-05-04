@@ -1,6 +1,7 @@
 # Release Notes
 
 <!-- MarkdownTOC autolink="true" bracket="round" -->
+- [2020 May 1: GoCenter security in VSCode extension](#2020-may-1-gocenter-security-in-vscode-extension)
 - [2020 April 3: API provisioning and bug fixes](#2020-april-3-api-provisioning-and-bug-fixes)
 - [2020 March 13: UI performance](#2020-march-13-ui-performance)
 - [2020 February 14: Minor fixes](#2020-february-14-minor-fixes)
@@ -29,6 +30,17 @@
 - [2019 January 28: GA](#2019-January-28-GA)
 
 <!-- /MarkdownTOC -->
+## 2020 May 1: GoCenter security in VSCode extension
+We're really excited to be able to provide a new free security feature from GoCenter now in the JFrog Extension for VSCode. With vulnerability scanning becoming a prominent part of GoCenter's UI in early 2020, we're now bringing parts of this experience to Visual Studio Code so developers can keep their Go Modules secure right when they're coding. Here is what you can now see for free right in the IDE: 
+
+* Total number of issues for each Go Module and version
+* Severity level with color-coded dots showing high, medium, and low issues
+* Stars, license information, latest version, and a snippet from the module's readme
+* Ability to see vulnerability alerts for module dependencies
+* Direct links to GoCenter tabs for more details including CVE and issue description
+
+You can find this extension in the VSCode marketplace under "JFrog" or [download it here](https://marketplace.visualstudio.com/items?itemName=JFrog.jfrog-vscode-extension). Need more information? Read the [launch blog to learn even more!](https://jfrog.com/blog/free-go-module-vulnerability-scanning-in-visual-studio-code/)
+
 ## 2020 April 3: API provisioning and bug fixes
 Over the last two weeks, we've been provisioning an API to be used in an upcoming IDE release for GoCenter as well as making minor updates to the UI and social + bug fixes.
 
