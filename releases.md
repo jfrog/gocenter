@@ -1,6 +1,7 @@
 # Release Notes
 
 <!-- MarkdownTOC autolink="true" bracket="round" -->
+- [2020 May 1: GoCenter updates](#2020-may-19-gocenter-updates)
 - [2020 May 1: GoCenter security in VSCode extension](#2020-may-1-gocenter-security-in-vscode-extension)
 - [2020 April 3: API provisioning and bug fixes](#2020-april-3-api-provisioning-and-bug-fixes)
 - [2020 March 13: UI performance](#2020-march-13-ui-performance)
@@ -30,6 +31,15 @@
 - [2019 January 28: GA](#2019-January-28-GA)
 
 <!-- /MarkdownTOC -->
+## 2020 May 19: GoCenter updates
+GoCenter just added an announcements area to the UI, is on its way to adding GoDocs, and made a few other minor UI updates and finished up a few other back-end upgrades. Overall updates include:
+
+* Pseudo-version Github fix
+* GoDocs back-end completed
+* Remove relative links in docs
+* Kubernetes and infrastructure upgrades
+* Added an announcements area
+
 ## 2020 May 1: GoCenter security in VSCode extension
 We're really excited to be able to provide a new free security feature from GoCenter now in the JFrog Extension for VSCode. With vulnerability scanning becoming a prominent part of GoCenter's UI in early 2020, we're now bringing parts of this experience to Visual Studio Code so developers can keep their Go Modules secure right when they're coding. Here is what you can now see for free right in the IDE: 
 
