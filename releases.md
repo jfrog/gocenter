@@ -1,7 +1,7 @@
 # Release Notes
 
 <!-- MarkdownTOC autolink="true" bracket="round" -->
-- [2020 May 1: GoCenter updates](#2020-may-19-gocenter-updates)
+- [2020 May 19: GoCenter updates](#2020-may-19-gocenter-updates)
 - [2020 May 1: GoCenter security in VSCode extension](#2020-may-1-gocenter-security-in-vscode-extension)
 - [2020 April 3: API provisioning and bug fixes](#2020-april-3-api-provisioning-and-bug-fixes)
 - [2020 March 13: UI performance](#2020-march-13-ui-performance)
