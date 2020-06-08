@@ -1,6 +1,7 @@
 # Release Notes
 
 <!-- MarkdownTOC autolink="true" bracket="round" -->
+- [2020 May 30: Sitemap and IDE updates](#2020-may-30-sitemap-and-ide-updates)
 - [2020 May 19: GoCenter updates](#2020-may-19-gocenter-updates)
 - [2020 May 1: GoCenter security in VSCode extension](#2020-may-1-gocenter-security-in-vscode-extension)
 - [2020 April 3: API provisioning and bug fixes](#2020-april-3-api-provisioning-and-bug-fixes)
@@ -31,6 +32,12 @@
 - [2019 January 28: GA](#2019-January-28-GA)
 
 <!-- /MarkdownTOC -->
+## 2020 May 30: Sitemap and IDE updates
+GoCenter and the IDE were upgraded with a few changes. What was rolled out:
+* sitemap auto-generation. Newly added modules will be automatically included to the sitemap (sitemap-modules.xml) 
+* new announcement added to the landing page
+* IDE bug and enhancement. We realized we can enhance the inclusion mechanism to address 404s when a module is requested in the IDE, but not availabe in GoCenter. This way additional metadata will be available to developers who are using the IDE plugin but didn't set GOPROXY to gocenter before rebuilding their cache.
+
 ## 2020 May 19: GoCenter updates
 GoCenter just added an announcements area to the UI, is on its way to adding GoDocs, and made a few other minor UI updates and finished up a few other back-end upgrades. Overall updates include:
 
