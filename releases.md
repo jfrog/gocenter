@@ -1,6 +1,8 @@
 # Release Notes
 
 <!-- MarkdownTOC autolink="true" bracket="round" -->
+- [2020 June 19: Helm 3 compliance](#2020-june-19-helm-3-compliance)
+- [2020 June 3: Minor changes](#2020-june-3-minor-changes)
 - [2020 May 30: Sitemap and IDE updates](#2020-may-30-sitemap-and-ide-updates)
 - [2020 May 19: GoCenter updates](#2020-may-19-gocenter-updates)
 - [2020 May 1: GoCenter security in VSCode extension](#2020-may-1-gocenter-security-in-vscode-extension)
@@ -32,6 +34,17 @@
 - [2019 January 28: GA](#2019-January-28-GA)
 
 <!-- /MarkdownTOC -->
+## 2020 June 19: Helm 3 compliance
+GoCenter is now compliant with Helm 3. These updates encompass:
+* Backend changes neeed for the new landing page have been completed. Look out for this on the UI soon!
+* More sitemap.xml changes. It was a great learning experience and will help us improve how SEO works on the site.
+* GoCenter is now only using Helm 3 - bye bye tiller! We're fully helm v3 compliant.
+
+## 2020 June 3: Minor changes
+* We're now filtering out v0.0.0 module processing requests from the IDE
+* Remove time from sitemap.xml
+* Xray URL changes
+
 ## 2020 May 30: Sitemap and IDE updates
 GoCenter and the IDE were upgraded with a few changes. What was rolled out:
 * sitemap auto-generation. Newly added modules will be automatically included to the sitemap (sitemap-modules.xml) 
