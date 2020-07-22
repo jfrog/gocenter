@@ -1,6 +1,7 @@
 # Release Notes
 
 <!-- MarkdownTOC autolink="true" bracket="round" -->
+- [2020 July 21: GoDocs added and increased support](#2020-july-21-godocs-added-and-increased-support)
 - [2020 June 19: Helm 3 compliance](#2020-june-19-helm-3-compliance)
 - [2020 June 3: Minor changes](#2020-june-3-minor-changes)
 - [2020 May 30: Sitemap and IDE updates](#2020-may-30-sitemap-and-ide-updates)
@@ -34,6 +35,11 @@
 - [2019 January 28: GA](#2019-January-28-GA)
 
 <!-- /MarkdownTOC -->
+## 2020 July 21: GoDocs Added and Increased Support
+We've just added a GoDocs tab to all the module pages! We've also added updates for Go 1.14 : 
+* Supporting Go 1.14 while handling advance 404 requests for transitive dependencies.
+* Supporting force capability if GoDocs needs to be regenerated due to bugs in GoDoc tool.
+
 ## 2020 June 19: Helm 3 compliance
 GoCenter is now compliant with Helm 3. These updates encompass:
 * Backend changes neeed for the new landing page have been completed. Look out for this on the UI soon!
