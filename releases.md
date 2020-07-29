@@ -1,6 +1,8 @@
 # Release Notes
 
 <!-- MarkdownTOC autolink="true" bracket="round" -->
+## 2020 July 27: Top Modules API and GoDocs breadcrumbs
+- [2020 July 27: Top Modules API and GoDocs breadcrumbs](#2020-july-27-top-modules-api-and-godocs-breadcrumbs)
 - [2020 July 21: GoDocs added and increased support](#2020-july-21-godocs-added-and-increased-support)
 - [2020 June 19: Helm 3 compliance](#2020-june-19-helm-3-compliance)
 - [2020 June 3: Minor changes](#2020-june-3-minor-changes)
@@ -35,24 +37,37 @@
 - [2019 January 28: GA](#2019-January-28-GA)
 
 <!-- /MarkdownTOC -->
+
+## 2020 July 27: Top Modules API and GoDocs breadcrumbs
+Some minor work was done to fix breadcrumbs as well as the API that shows the upcoming top modules. Summary:
+
+* Top Modules API was updated to reflect the new scope of look and feel changes
+* Under certain conditions, metadata service was not handling shutdowns well. This issue has been addressed.
+* GoDocs breadcrumb fixed
+* Dependency tab was not updated if a different version was selected. Only the counts were being updated. This issue has been fixed.
+
 ## 2020 July 21: GoDocs Added and Increased Support
 We've just added a GoDocs tab to all the module pages! We've also added updates for Go 1.14 : 
+
 * Supporting Go 1.14 while handling advance 404 requests for transitive dependencies.
 * Supporting force capability if GoDocs needs to be regenerated due to bugs in GoDoc tool.
 
 ## 2020 June 19: Helm 3 compliance
 GoCenter is now compliant with Helm 3. These updates encompass:
+
 * Backend changes neeed for the new landing page have been completed. Look out for this on the UI soon!
 * More sitemap.xml changes. It was a great learning experience and will help us improve how SEO works on the site.
 * GoCenter is now only using Helm 3 - bye bye tiller! We're fully helm v3 compliant.
 
 ## 2020 June 3: Minor changes
+
 * We're now filtering out v0.0.0 module processing requests from the IDE
 * Remove time from sitemap.xml
 * Xray URL changes
 
 ## 2020 May 30: Sitemap and IDE updates
 GoCenter and the IDE were upgraded with a few changes. What was rolled out:
+
 * sitemap auto-generation. Newly added modules will be automatically included to the sitemap (sitemap-modules.xml) 
 * new announcement added to the landing page
 * IDE bug and enhancement. We realized we can enhance the inclusion mechanism to address 404s when a module is requested in the IDE, but not availabe in GoCenter. This way additional metadata will be available to developers who are using the IDE plugin but didn't set GOPROXY to gocenter before rebuilding their cache.
