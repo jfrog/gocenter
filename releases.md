@@ -2,6 +2,7 @@
 
 <!-- MarkdownTOC autolink="true" bracket="round" -->
 ## 2020 July 27: Top Modules API and GoDocs breadcrumbs
+- [2020 August 26: Back-end updates and refactoring](#2020-august-26-back-end-updates-and-refactoring)
 - [2020 July 27: Top Modules API and GoDocs breadcrumbs](#2020-july-27-top-modules-api-and-godocs-breadcrumbs)
 - [2020 July 21: GoDocs added and increased support](#2020-july-21-godocs-added-and-increased-support)
 - [2020 June 19: Helm 3 compliance](#2020-june-19-helm-3-compliance)
@@ -37,6 +38,16 @@
 - [2019 January 28: GA](#2019-January-28-GA)
 
 <!-- /MarkdownTOC -->
+
+## 2020 August 26: Back-End Updates and Refactoring
+We've been working on a number of bug fixes and updates to the back-end code to improve performance of GoCenter. We've also updated the validation process to make acceptence of modules less opinionated. Overall bug fixes and changes on this release include:
+
+* Validation refactoring to support modules with requirement issues
+* Update to vulnerabilities API
+* Allow prefix based on exclusion
+* Set server timeouts
+* Add cache layer to get latest vulnerabilities API
+* Go module promotion bug (copying other versions that share same prefix)
 
 ## 2020 July 27: Top Modules API and GoDocs breadcrumbs
 Some minor work was done to fix breadcrumbs as well as the API that shows the upcoming top modules. Summary:
