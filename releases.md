@@ -1,7 +1,7 @@
 # Release Notes
 
 <!-- MarkdownTOC autolink="true" bracket="round" -->
-## 2020 July 27: Top Modules API and GoDocs breadcrumbs
+- [2020 September 11: New GoCenter Look](#2020-september-11-new-gocenter-look)
 - [2020 August 26: Back-end updates and refactoring](#2020-august-26-back-end-updates-and-refactoring)
 - [2020 July 27: Top Modules API and GoDocs breadcrumbs](#2020-july-27-top-modules-api-and-godocs-breadcrumbs)
 - [2020 July 21: GoDocs added and increased support](#2020-july-21-godocs-added-and-increased-support)
@@ -38,6 +38,15 @@
 - [2019 January 28: GA](#2019-January-28-GA)
 
 <!-- /MarkdownTOC -->
+## 2020 September 11: New GoCenter Look
+GoCenter has a new look and feel and added features to make it pop! We've updated the landing page and started to included an area for top downloaded modules, some details about security information on the center, and a few other fixes and optimizations in this release. You can see the new [GoCenter](https://search.gocenter.io) and read our release notes:
+
+* We started using JFrog Pipelines to promote and upgrade stage and production instead of relying on Jenkins
+* UI can intake a new CDN process to eliminate latency issues
+* Clicking on dependency when still in processing will provide a message
+* Clicking on dependency should launch on a separate tab
+* Feature Module carousel fixes
+* Cut and Paste should include version so that the user does not have to backapce the version
 
 ## 2020 August 26: Back-End Updates and Refactoring
 We've been working on a number of bug fixes and updates to the back-end code to improve performance of GoCenter. We've also updated the validation process to make acceptence of modules less opinionated. Overall bug fixes and changes on this release include:
