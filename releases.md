@@ -1,6 +1,7 @@
 # Release Notes
 
 <!-- MarkdownTOC autolink="true" bracket="round" -->
+- [2020 September 17: Bux Fixes and Updates](#2020-september-17-bug-fixes-and-updates)
 - [2020 September 11: New GoCenter Look](#2020-september-11-new-gocenter-look)
 - [2020 August 26: Back-end updates and refactoring](#2020-august-26-back-end-updates-and-refactoring)
 - [2020 July 27: Top Modules API and GoDocs breadcrumbs](#2020-july-27-top-modules-api-and-godocs-breadcrumbs)
@@ -38,6 +39,12 @@
 - [2019 January 28: GA](#2019-January-28-GA)
 
 <!-- /MarkdownTOC -->
+## 2020 September 17: Bug Fixes and Updates
+Fixes for GoCenter were pushed to production today. This includes fixes for following issues:
+* IDE API end point broken and was fixed
+* Handle pod restarts for an edge case
+* Adding Google Tags for Artifactory Free Tier for Google Analytics
+
 ## 2020 September 11: New GoCenter Look
 GoCenter has a new look and feel and added features to make it pop! We've updated the landing page and started to included an area for top downloaded modules, some details about security information on the center, and a few other fixes and optimizations in this release. You can see the new [GoCenter](https://search.gocenter.io) and read our release notes:
 
