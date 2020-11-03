@@ -1,6 +1,8 @@
 # Release Notes
 
 <!-- MarkdownTOC autolink="true" bracket="round" -->
+## 2020 October 22: UI to Backend Stability
+- [2020 October 22: UI to Backend Stability](#2020-october-22-ui-to-backend-stability)
 - [2020 September 17: Bux Fixes and Updates](#2020-september-17-bug-fixes-and-updates)
 - [2020 September 11: New GoCenter Look](#2020-september-11-new-gocenter-look)
 - [2020 August 26: Back-end updates and refactoring](#2020-august-26-back-end-updates-and-refactoring)
@@ -39,6 +41,15 @@
 - [2019 January 28: GA](#2019-January-28-GA)
 
 <!-- /MarkdownTOC -->
+## 2020 October 22: UI to Backend Stability
+A few GoCenter fixes were pushed to production that varies from UI to backend to stability:
+* License not displayed correctly on the Info Panel. Fixed.
+* Improve Search Results by filtering out failed/bad modules
+* Specific modules causing UI pods to restart. This issue has been addressed.
+* Show pseudoversion check stopped working
+* For some modules, godocs were not showing up
+* GoCenter can't validate path for modules with bad requirements
+
 ## 2020 September 17: Bug Fixes and Updates
 Fixes for GoCenter were pushed to production today. This includes fixes for following issues:
 * IDE API end point broken and was fixed
