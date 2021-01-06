@@ -42,7 +42,7 @@
 
 <!-- /MarkdownTOC -->
 ## 2021 January 4: New Smart Search and Module Path Indicator
-As we celebrate the new year, we're excited to announce we've improved the search on GoCenter. The new smart search feature comes with a dedicated search results page plus the ability for users to filter out results based on different criteria. Additionally, we have a new feature that gives users the ability to know about new major versions. This is a super handy feature since the module name changes with every new major version. [Read the blog](https://jfrog.com/resource-center/).
+As we celebrate the new year, we're excited to announce we've improved the search on GoCenter. The new smart search feature comes with a dedicated search results page plus the ability for users to filter out results based on different criteria. Additionally, we have a new feature that gives users the ability to know about new major versions. This is a super handy feature since the module name changes with every new major version. [Read the blog](https://jfrog.com/blog/find-the-path-to-go-module-major-versions-with-gocenter/).
 
 ## 2020 October 22: UI to Backend Stability
 A few GoCenter fixes were pushed to production that varies from UI to backend to stability:
