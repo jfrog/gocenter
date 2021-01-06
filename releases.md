@@ -1,7 +1,7 @@
 # Release Notes
 
 <!-- MarkdownTOC autolink="true" bracket="round" -->
-## 2020 October 22: UI to Backend Stability
+- [2021 January 4: New Smart Search and Module Path Indicator](#2021-january-4-new-smart-search-and-module-path-indicator)
 - [2020 October 22: UI to Backend Stability](#2020-october-22-ui-to-backend-stability)
 - [2020 September 17: Bux Fixes and Updates](#2020-september-17-bug-fixes-and-updates)
 - [2020 September 11: New GoCenter Look](#2020-september-11-new-gocenter-look)
@@ -41,6 +41,9 @@
 - [2019 January 28: GA](#2019-January-28-GA)
 
 <!-- /MarkdownTOC -->
+## 2021 January 4: New Smart Search and Module Path Indicator
+As we celebrate the new year, we're excited to announce we've improved the search on GoCenter. The new smart search feature comes with a dedicated search results page plus the ability for users to filter out results based on different criteria. Additionally, we have a new feature that gives users the ability to know about new major versions. This is a super handy feature since the module name changes with every new major version. [Read the blog](https://jfrog.com/resource-center/).
+
 ## 2020 October 22: UI to Backend Stability
 A few GoCenter fixes were pushed to production that varies from UI to backend to stability:
 * License not displayed correctly on the Info Panel. Fixed.
