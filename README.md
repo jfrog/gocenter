@@ -1,7 +1,7 @@
 # JFrog GoCenter
 ![JFrog GoCenter Logo](https://raw.githubusercontent.com/jfrog/gocenter/master/resources/logo.png)
 
-# Attention: Deprecation notice for Bintray, GoCenter, and ChartCenter. [Learn More](#)
+# Attention: Deprecation notice for Bintray, GoCenter, ChartCenter and JCenter. [Learn More](#)
 
 If you are reading this, then hopefully you have an interest in immutable re-usable Go modules, so welcome to JFrog GoCenter.  If
 you haven't already, you can check out the actual web page at [gocenter.io](https://gocenter.io), but you may as
